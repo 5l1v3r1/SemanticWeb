@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book>
+		<title>The Little Prince</title>
+		<author>Antoine de Saint-Exupéry</author>
+		<publisher>Mariner Books</publisher>
+		<isbn>9780156012195</isbn>
+		<year>2000</year>
+		<price>$6.35</price>
+		<url>https://www.amazon.com/dp/0156012197</url>
+	</book>
+	<book>
+		<title>The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life</title>
+		<author>Mark Manson</author>
+		<publisher>HarperOne</publisher>
+		<isbn>9780062457714</isbn>
+		<year>2016</year>
+		<price>$14.99</price>
+		<url>https://www.amazon.com/dp/0062457713</url>
+	</book>
+	<book>
+		<title>Let Trump Be Trump: The Inside Story of His Rise to the Presidency</title>
+		<author>Corey R. Lewandowski, David N. Bossie</author>
+		<publisher>Center Street</publisher>
+		<isbn>9788925597898</isbn>
+		<year>2017</year>
+		<price>$17.70</price>
+		<url>https://www.amazon.com/dp/1546083308</url>
+	</book>
+	<book>
+		<title>Mein Kampf: My Struggle</title>
+		<author>Adolf Hitler</author>
+		<publisher>Free Thought Library</publisher>
+		<isbn>9781682042533</isbn>
+		<year>2015</year>
+		<price>$11.59</price>
+		<url>https://www.amazon.com/dp/1682042537</url>
+	</book>
+	<book>
+		<title>Crazy Zany Robots COLORING Book: for kids of all ages (boys, girls, and adults)</title>
+		<author>Optimistic Squirrel</author>
+		<publisher>CreateSpace Independent Publishing Platform</publisher>
+		<isbn>9781539440703</isbn>
+		<year>2016</year>
+		<price>$4.99</price>
+		<url>https://www.amazon.com/dp/1539440702</url>
+	</book>
+	<book>
+		<title>Behave: The Biology of Humans at Our Best and Worst</title>
+		<author>Robert M. Sapolsky</author>
+		<publisher>Penguin Press</publisher>
+		<isbn>9781594205071</isbn>
+		<year>2017</year>
+		<price>$23.59</price>
+		<url>https://www.amazon.com/dp/1594205078</url>
+	</book>
+	<book>
+		<title>Why Zebras Don't Get Ulcers: An Updated Guide to Stress, Stress Related Diseases, and Coping (2nd Edition) </title>
+		<author>Robert M. Sapolsky</author>
+		<publisher>W. H. Freeman</publisher>
+		<isbn>978-0716732105</isbn>
+		<year>1998</year>
+		<price>$15.98</price>
+		<url>https://www.amazon.com/dp/0716732106</url>
+	</book>
+	<book>
+		<title>The Wishmakers</title>
+		<author>Tyler Whitesides</author>
+		<publisher>HarperCollins</publisher>
+		<isbn>9780062568311</isbn>
+		<year>2018</year>
+		<price>$14.59</price>
+		<url>https://www.amazon.com/dp/0062568310</url>
+	</book>
+	<book>
+		<title>Das Kapital: A Critque of Political Economy</title>
+		<author>Karl Marx</author>
+		<publisher>CreateSpace Independent Publishing Platform</publisher>
+		<isbn>9781453886328</isbn>
+		<year>2011</year>
+		<price>$9.95</price>
+		<url>https://www.amazon.com/dp/145388632X</url>
+	</book>
+	<book>
+		<title>The Communist Manifesto</title>
+		<author>Karl Marx, Friedrich Engels</author>
+		<publisher>International Publishers Co</publisher>
+		<isbn>9780717802418</isbn>
+		<year>2014</year>
+		<price>$3.00</price>
+		<url>https://www.amazon.com/dp/0717802418</url>
+	</book>
+	<book>
+		<title>Deep Learning with Python</title>
+		<author>Francois Chollet</author>
+		<publisher>Manning Publications</publisher>
+		<isbn>9781617294433</isbn>
+		<year>2017</year>
+		<price>$47.49</price>
+		<url>https://www.amazon.com/dp/1617294438</url>
+	</book>
+	<book>
+		<title>Programming the Semantic Web: Build Flexible Applications with Graph Data</title>
+		<author>Toby Segaran, Colin Evans, Jamie Taylor</author>
+		<publisher>O'Reilly Media</publisher>
+		<isbn>9780596153816</isbn>
+		<year>2009</year>
+		<price>$30.78</price>
+		<url>https://www.amazon.com/dp/0596153813</url>
+	</book>
+	<book>
+		<title>Learning XML, Second Edition</title>
+		<author>Erik T. Ray</author>
+		<publisher>O'Reilly Media</publisher>
+		<isbn>9780596004200</isbn>
+		<year>2003</year>
+		<price>$24.72</price>
+		<url>https://www.amazon.com/dp/0596004206</url>
+	</book>
+	<book>
+		<title>Not Quite Crazy</title>
+		<author>Catherine Bybee</author>
+		<publisher>Montlake Romance</publisher>
+		<isbn>9781503951730</isbn>
+		<year>2018</year>
+		<price>$9.17</price>
+		<url>https://www.amazon.com/dp/1503951731</url>
+	</book>
+	<book>
+		<title>Harry Potter and the Sorcerer's Stone</title>
+		<author>J. K. Rowling</author>
+		<publisher>Thorndike Press</publisher>
+		<isbn>9780786222728</isbn>
+		<year>1999</year>
+		<price>$24.87</price>
+		<url>https://www.amazon.com/dp/0786222727</url>
+	</book>
+	<book>
+		<title>Sally's Cookie Addiction: Irresistible Cookies, Cookie Bars, Shortbread, and More from the Creator of Sally's Baking Addiction</title>
+		<author>Sally McKenney</author>
+		<publisher>Race Point Publishing</publisher>
+		<isbn>9781631063077</isbn>
+		<year>2017</year>
+		<price>$16.51</price>
+		<url>https://www.amazon.com/dp/1631063073</url>
+	</book>
+	<book>
+		<title>The Last Jedi: Expanded Edition (Star Wars)</title>
+		<author>Jason Fry</author>
+		<publisher>Del Rey</publisher>
+		<isbn>9781524797119</isbn>
+		<year>2018</year>
+		<price>$17.39</price>
+		<url>https://www.amazon.com/dp/1524797111</url>
+	</book>
+	<book>
+		<title>She Persisted Around the World: 13 Women Who Changed History</title>
+		<author>Chelsea Clinton</author>
+		<publisher>Philomel Books</publisher>
+		<isbn>9780525516996</isbn>
+		<year>2018</year>
+		<price>$13.49</price>
+		<url>https://www.amazon.com/dp/0525516999</url>
+	</book>
+	<book>
+		<title>The Siege of Vienna: The Last Great Trial Between Cross &amp; Crescent </title>
+		<author>John Stoye</author>
+		<publisher>Pegasus Books</publisher>
+		<isbn>9781933648637</isbn>
+		<year>2008</year>
+		<price>$10.21</price>
+		<url>https://www.amazon.com/dp/1933648635</url>
+	</book>
+	<book>
+		<title>Elements of Chemical Reaction Engineering (5th Edition)</title>
+		<author>H. Scott Fogler</author>
+		<publisher>Prentice Hall</publisher>
+		<isbn>9780133887518</isbn>
+		<year>2016</year>
+		<price>$127.16</price>
+		<url>https://www.amazon.com/dp/0133887510</url>
+	</book>
+</books>
