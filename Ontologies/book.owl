@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#"
+     xml:base="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#"
+     xmlns:books="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#written -->
+
+    <owl:ObjectProperty rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#written">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Authors"/>
+        <rdfs:range rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Books"/>
+        <rdfs:label>written</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#FirstName -->
+
+    <owl:DatatypeProperty rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#FirstName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Authors"/>
+        <rdfs:label>First Name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#ISBN -->
+
+    <owl:DatatypeProperty rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#ISBN">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Books"/>
+        <rdfs:label>ISBN</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#LastName -->
+
+    <owl:DatatypeProperty rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#LastName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Authors"/>
+        <rdfs:label>Last Name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Price -->
+
+    <owl:DatatypeProperty rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Price">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Price</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Sex -->
+
+    <owl:DatatypeProperty rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Sex">
+        <rdfs:domain rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Authors"/>
+        <rdfs:label>Sex</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Authors -->
+
+    <owl:Class rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Authors">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <owl:disjointWith rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Books"/>
+        <rdfs:label>Authors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Books -->
+
+    <owl:Class rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Books">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#RomanceBooks -->
+
+    <owl:Class rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#RomanceBooks">
+        <rdfs:subClassOf rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Books"/>
+        <rdfs:label>Romance Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#AHopeDivided -->
+
+    <owl:NamedIndividual rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#AHopeDivided">
+        <rdf:type rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#RomanceBooks"/>
+        <books:ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9781496707468</books:ISBN>
+        <books:Price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.20</books:Price>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alyssa Cole</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-28T00:00:00</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paperback</dc:format>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kensington</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Hope Divided</dc:title>
+        <rdfs:label>A Hope Divided</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#AlyssaCole -->
+
+    <owl:NamedIndividual rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#AlyssaCole">
+        <rdf:type rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Authors"/>
+        <books:written rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#AHopeDivided"/>
+        <books:written rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#APrincessInTheory%3AReluctantRoyals"/>
+        <books:FirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alyssa</books:FirstName>
+        <books:LastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cole</books:LastName>
+        <books:Sex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</books:Sex>
+        <rdfs:label>Alyssa Cole</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#BadBachelor -->
+
+    <owl:NamedIndividual rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#BadBachelor">
+        <rdf:type rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#RomanceBooks"/>
+        <books:ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9781492655176</books:ISBN>
+        <books:Price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.98</books:Price>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stefanie London</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-06T00:00:00</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paperback</dc:format>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sourcebooks Casablanca</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bad Bachelor</dc:title>
+        <rdfs:label>Bad Bachelor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#BadReputation -->
+
+    <owl:NamedIndividual rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#BadReputation">
+        <rdf:type rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#RomanceBooks"/>
+        <books:ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9781492655206</books:ISBN>
+        <books:Price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.99</books:Price>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stefanie London</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-07T00:00:00</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paperback</dc:format>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sourcebooks Casablanca</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bad Reputation</dc:title>
+        <rdfs:label>Bad Reputation</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Bad-Reputation-Bachelors-Stefanie-London/dp/1492655201/"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#CatherineBybee -->
+
+    <owl:NamedIndividual rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#CatherineBybee">
+        <rdf:type rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Authors"/>
+        <books:written rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#NotQuiteForever"/>
+        <books:FirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catherine</books:FirstName>
+        <books:LastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bybee</books:LastName>
+        <books:Sex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</books:Sex>
+        <rdfs:label>Catherine Bybee</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#NotQuiteForever -->
+
+    <owl:NamedIndividual rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#NotQuiteForever">
+        <rdf:type rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#RomanceBooks"/>
+        <books:ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9781477825891</books:ISBN>
+        <books:Price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.99</books:Price>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catherine Bybee</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-04T00:00:00</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paperback</dc:format>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montlake Romance</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not Quite Forever</dc:title>
+        <rdfs:label>Not Quite Forever</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#StefanieLondon -->
+
+    <owl:NamedIndividual rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#StefanieLondon">
+        <rdf:type rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#Authors"/>
+        <books:written rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#BadBachelor"/>
+        <books:written rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#BadReputation"/>
+        <books:FirstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stefanie</books:FirstName>
+        <books:LastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London</books:LastName>
+        <books:Sex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</books:Sex>
+        <rdfs:label>Stefanie London</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#APrincessInTheory%3AReluctantRoyals -->
+
+    <owl:NamedIndividual rdf:about="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#APrincessInTheory%3AReluctantRoyals">
+        <rdf:type rdf:resource="http://furkankalkan.com/SemanticWeb/demo/ontologies/books.owl#RomanceBooks"/>
+        <books:ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9780062685544</books:ISBN>
+        <books:Price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.47</books:Price>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alyssa Cole</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-27T00:00:00</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paperback</dc:format>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avon</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Princess in Theory: Reluctant Royals</dc:title>
+        <rdfs:label>A Princess in Theory: Reluctant Royals</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.3.2) https://github.com/owlcs/owlapi -->
+
